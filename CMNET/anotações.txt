@@ -1,0 +1,3 @@
+Reserva THEX - PMS -> Gestão do Hóspede/Hotel como contas
+        THEX - POS -> Gestão Restaurantes
+		Sistemas de Eventos -> Controla Salões

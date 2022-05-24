@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<processo idProcesso="000375" dtMovimento="01/01/2020">
+		<itens>
+			<item DTPLANEJ="01/01/2020" VALOR="1500.00" CO="32106002" CLASSE="000001" CC="110130101" IDREF="00001" ID="1" TIPO="1"/>
+		</itens>
+	</processo>
+</root>

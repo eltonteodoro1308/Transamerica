@@ -1,0 +1,70 @@
+Controle de ativos em poder de quem.
+Controle de estoque em outro armazém de testes.
+
+Custo por filial
+Verificar sobre estoque em poder de terceiros, controle no Kardex.
+
+========================================================================
+
+Ajuste gatilhos de local e grupo para considerar o tipo 03
+
+Observar que o que temos hoje já atende eles com classe de valor, movimentação de estoque, etc..
+o que falta é uma customização que faça a "orquestração" desse processo... 
+
+Centro de Custo do Bem para o Manutenção de Ativo
+
+
+32211001
+110130101
+
+
+========================================================================
+
+THG
+
+Verificar como no padrão impedir que um bem de uma empresa seja classificado em outra empresa
+Ajustar MIT de customização de Classificação para que o número do lote seja incrementado numericamente apartir de um numeração
+Ajustar MIT de customização de Classificação para que o código base seja incrementado numericamente apartir de um numeração e o item seja fixo
+Permitir o código da plaqueta com o mesmo número da plaqueta
+Verificar a quantidade casas no código base e item e validar que só aceita números e terá tamanho de 6 casas
+Definir todo bem como 1-Próprio - Tipo de Controle
+Verificar sobre os campos marca, modelo, serie
+Campo com o número da requisição ao armazém
+Campo com o número da requisição do estoque
+Relatório com Bens Bloqueados
+Relatório com Bens com início da depreciação futuramente
+Relatório de bens totalmente depreciados
+
+
+
+081 - Cenário do módulo de Manutenção de Ativos
+118 - O enunciado é confuso e nada claro, pois não menciona que ações deverão compor o teste, cita Ativo Diferido mas não explica que testes devemos verificar.
+119 - Indica um teste com correção monetária, mas este cálculo não é mais vigente.
+121 - O enunciado é confuso e nada claro, pois não menciona que ações deverão compor o teste, cita Investimentos mas não explica que testes devemos verificar.
+125 - O enunciado parece tratar de um cenário de teste descrito no cenário 001, apenas considerar um tes com desmenbramento de bens.
+127 - O enunciado claramente cita 5 processos diferentes mas não torna explícito os passos para o teste. 
+
+========================================================================
+
+
+Ampliação de Vida Útil do Bem Não registra mudança na SN4.
+Conhecimento de Transporte Rateado por notas de entrada reflexo em Ativos a Classificar. 
+Verificar Gatilho na transferência para gerar o ajuste das contas de desp depr.
+Na classificação em lote definir a classificação para valor 01 e 03
+
+========================================================================
+
+ftps://lsqj2y-prd-protheus.totvscloud.com.br:990
+
+=======================================================================
+
+                                                                                                                                
+EVAL({||A:=ALLTRIM(M->N1_CBASE),B:=ARRAY(LEN(A)),C:=1,D:=LEN(A)<=6,AEVAL(B,{||D:=SUBSTR(A,C,1)$'0123456789'.AND.D,C++}),D})
+EVAL({||A:=ALLTRIM(M->N1_CBASE),B:=ARRAY(LEN(A)),C:=1,D:=LEN(A)<=6,AEVAL(B,{||D:=SUBSTR(A,C,1)$'0123456789'.AND.D,C++}),D})
+          
+EVAL({||A:=ALLTRIM(M->N1_ITEM),B:=ARRAY(LEN(A)),C:=1,D:=LEN(A)<=4,AEVAL(B,{||D:=SUBSTR(A,C,1)$'0123456789'.AND.D,C++}),D})
+EVAL({||A:=ALLTRIM(M->N1_ITEM),B:=ARRAY(LEN(A)),C:=1,D:=LEN(A)<=4,AEVAL(B,{||D:=SUBSTR(A,C,1)$'0123456789'.AND.D,C++}),D})            
+
+=======================================================================
+
+CHAMADO CPC 27 => 12643682

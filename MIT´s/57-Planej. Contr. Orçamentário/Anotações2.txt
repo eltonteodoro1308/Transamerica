@@ -1,0 +1,15 @@
+- Planilha orçamentária estática no início do ano.
+- Posibilidade de mais de uma planilha orçamentária por cenário.
+- Considerar bloqueio por usuário na planilha orçamentária.
+- Não haverá bloqueio orçamentário, apenas verificar com Márcia Conrado sobre Teatro Alfa.
+-** Verificar notas explicativas na visão gerencial.
+- Controle de ocupação dos quartos pelo orçamento considerando indices.
+
+- Centro de Custos será aplicado a todos as empresas.
+- Item contábil não será aplicado no orçamento.
+
+- Somente saldo orçado e realizado no momento.
+
+- Tem como aglutinar as empresas ?
+- Faturamento será importado por txt.
+

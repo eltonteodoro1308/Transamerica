@@ -1,0 +1,36 @@
+- A compra de ativo começa pelo compras
+
+- Gap classificação do bem ser definido em parte na solicitação.
+
+- Usar TES inteligente na diferenciação de bem ativo ou despesa.
+
+- Tratar quebra em itens em 1 a 1 no ativo
+
+- Fórmula para o valor de inclusão do ativo 
+
+- Validação de na hora da nota de entrada para validar na tes de ativo para ativo, verificar na solictação
+
+- Tratar no projeto e grupo de obras de imóveis, Temos que ter um registro de obras com a parte civil e instalações,   
+
+- Tratar processo de obras, onde são feitos vários gastos registrados no compras, no momento da solictação de compras definir o projeto a que se refere, no cadastro de produto definir o grupo de ativo, ir registrando no ativo os bens a serem classificados e com base no cadastro de obra criar um acelerador que verifica os bens que serão classificados para a obra e tratar a ampliação de um bem.
+
+- Tratar devolução de ativo por baixa com depreciação por devolução ao fornecedor emitindo nota no faturamento, gerar no financeiro o título a a receber para compensar com o pagar da nota do fornecedor na compra de ativo mais novo em troca 
+
+- Tratar início da depreciação na entrada da nota quando bem for trocado
+
+
+****
+
+- GAP informar dados da classificação na solicitação de compras por quem faz a requisição e não na classificação do ativo.
+  * local/departamento/centro de custo/responsável
+  * Vincular produto ao grupo de bem
+  
+- GAP tratar projeto de obras e reformas.
+- GAP há itens requisitados de estoque que se tornaram ativo (fio, tomada, interruptor) por serem utilizados em projeto.
+- Requisição de baixa e transferência verificar se vai utilizar
+- Estoque de terceiros em poder da empresa para tratar ativo de terceiros
+- Considerar depreciação gerencial
+- Considerar aplicativo meu ativo
+- Considerar Aplicativo Meu ativo.
+
+

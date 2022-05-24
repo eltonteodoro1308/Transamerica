@@ -1,0 +1,3 @@
+Acesso ao Protheus  - Ambiente Desenvolvimento/testes
+usuário: ADMIN
+senha:  HTSP1000

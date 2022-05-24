@@ -1,0 +1,54 @@
+- Atividade das empresas.
+- Cada empresa terá sistema orçamentário exclusivo ?
+- Considerar algum aglutinador por grupo de empresas ?
+- Origem dos saldos orçamentários (planejamento) planilha orçamentária ? movimentação ?
+- Entidades Contábeis quais e compartilhamento.
+- Saldos quais aplicar ?
+
+
+Na hospedagem é analisada a curva de sazonalidade e orçamento disponível.
+
+Avaliar a possibilidade de importar a planilha orçamentária.
+
+Verificar algum diferenciador para os eventos na movimentação orçamentária.
+
+Como funciona esse fluxo desde a alimentação do saldo orçamentário até que ele seja realizado, considerando a particulariedade de cada Empresa ?
+
+Verificar se para eventos não é mais interessante usar o Gestão de Contratos.
+
+Os Saldos a serem considerados serão ? Qual não se aplica ? Há algum que falta ser considerado ?
+
+PR - Previsto
+OR – Orçado
+EM – Empenhado
+RE – Realizado
+CT – Contingência
+TC – Transposição a Crédito
+TD – Transposição a Débito
+RS – Reservado
+SI – Simulação
+
+O Plano Orçamentário deve ser sincronizado com o Plano de Contas ? Com o Centro de Custos ? Ou deve ser ser um cadastro exclusivo do PCO ?
+
+Quais entidades contábeis serão consideradas ?
+E qual o compartilhamento ?
+
+- Centro de Custos ?
+- Item Contábil ?
+- Classe de Valor ?
+
+O controle orçamentário será separado por empresa ?
+Haverá algum tipo de aglutinação ?
+
+Faz sentido o conceito de contingência ?
+Faz sentido o conceito de Transposição ?
+
+Haverá algum tipo de bloqueio de acesso a planilha orçamentária ?
+
+Haverá algum tipo de bloqueio a acesso de cubos ?
+
+As entidades contábeis serão todas compartilhadas pelas Empresas ?
+
+Faz Sentido criar diferentes versões da planilha orçamentária e fazer simulações ?
+
+Como será o processo de bloqueio de emprenho de saldo orçado ?

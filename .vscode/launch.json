@@ -1,0 +1,105 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração do idioma TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\TOTVS\\SmartClient\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"enableMultiThread": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "u_lstprg",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAMDI",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAESP",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "u_NFSEUNA",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGACFG",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "APSDU",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "u_atfsave",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "u_AtfSched",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGALOJA",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HTLGNNR",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_TSTJOB",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_getfunc",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_lj7082",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_HTCHGLOC",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "SIGAADV",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_AFTERLOGIN",
+			"description": ""
+		},
+		{
+			"args": [],
+			"label": "U_IMPATFCSV",
+			"description": ""
+		}
+	],
+	"lastProgramExecuted": "SIGAMDI",
+	"lastProgramArgumens": []
+}

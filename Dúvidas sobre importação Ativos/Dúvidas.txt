@@ -1,0 +1,33 @@
+1. A nossa base de ativos contém 39 campos com informações relevantes referente ao histórico do cadastro de ativos dentro do sistema atual.
+
+Existem campos na nossa base de dados que gostaríamos de entender como será migrado para o módulo de ativos Totvs.
+
+Exemplo:
+Marca
+Modelo
+Num. de série
+Situação (ativo, depreciado e baixado)
+Sequência agregada do ativo
+Código do projeto
+CNPJ fornecedor
+
+2. A tela de cadastro de bem do módulo ativo fixo do Totvs contém vários campos que precisamos entender quais as informações e a forma a serem enviadas.
+
+Exemplo:
+Grupo (Espécie analítica ou grupo sintético)
+Item
+Loja Fornecedor
+Status do bem
+Data de bloqueio
+Bem MNT
+Cálculo do PIS (Informação deverá estar vinculada ao módulo fiscal)
+Código de barras
+Sit. Penhora
+Cód. Margem
+Rev. Margem
+Provisão...
+
+
+XYZ890 - 000
+XYZ890 - 001
+XYZ890 - 003

@@ -1,0 +1,9 @@
+- Planilha orçamentárias:
+	- Cadastro
+	- Controle de Fase
+	- Versionamento
+	- Simulação
+	- Visão Gerencial
+	- Bloqueios
+	
+- 

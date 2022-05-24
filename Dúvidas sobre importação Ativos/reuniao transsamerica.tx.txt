@@ -1,0 +1,26 @@
+* Cadastro de Produtos X Ativos.
+* Cadastro de produto vinculado ao bem.
+* Finalidade do Grupo de Ativos como acelerador e parâmetro de filtro
+* Grupo de bens com código definindo o grupo e a espécie
+* Centro de custos correspondnete a depto informando CC no cadastro de bens
+* Possibilidade definir loja como valor fixo.
+* Campo loja do fornecedor gatilhado com o código do mesmo.
+* Disponibilizar no cadastro do ativo os campos virtuais de Razão Social e CNPJ do fornecedor.
+* Verificar com Ágata a finalidade do campo Bem MNT.
+* Verificar crédito de PIS na deprecição do bem, qual o reflexo no Fiscal com Gabriela ou Erica, THG deve nos relatar qual o processo.(Verificar Adriana Soares) 
+* No código da plaqueta informar o código do bem sem o item e replicar para o campo de código de barras
+* Gatilhar a incremento do item na agregação de benfeitorias/adiantamentos.
+* Evanildo irá verificar se irá importar bens baixados, pois se o mesmos forem importados, deverão ter sua baixa feita manualmente ou através de uma customização.
+* Criar campos para informar a Marca, Modelo e Série que serão campos digitáveis sem chave estrangeira.
+* Criar campos virtuais com as descrição do grupo, da espécie e do departatamento viséveis no cadastro do bem.
+* Campos "Códgio", "descrição", "situação" e "Início Depreciacao" do projeto depende da implementação do GAP correspondnete a controle de projetos, mas estes campos devem aparecer na tela de cadastro do bem, considerar e manter no layout, mesmo sem a definição de como será tratado, observar que o Início Depreciação do projeto é correspondente a Data Início da Depreciação.
+* Considerarei que o Número do Documento no layout se refere a Nota Fiscal.
+* Trazer para tela de cadastro do bem a data de emissão da nota lançada no compras.
+* Descosinderar na importação o campo de Depreciação Mês pois campo é populado no calculo mensal da depreciação.
+* Criar campo virtual que traz o valor residual do bem (saldo = custo de aquisição - depreciação acumulada )
+* Os campos "Valor Acumulado Lei 8200", "Depreciação Mes Lei 8200", "Depreciação Acumulada Lei 8200" e "Valor Residual Lei 8200"
+correspondem a correção monetário não vigente mais na legislação de hoje e entendemos não serem necesssários importar, ???
+*  Depreciação fiscal X gerencial contas contábeis diferentes 
+
+* MIT 05
+
