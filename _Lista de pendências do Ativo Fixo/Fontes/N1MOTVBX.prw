@@ -17,6 +17,7 @@ user function N1MOTVBX()
 	local aAux       := StrTokArr2( AllTrim( AF036ValMot() ) , ';', .T. )
 	local cSeek      := ''
 	local nPos       := 0
+	local aArea      := getArea()
 
 	aEval( aAux, { | item |;
 		aItem := StrTokArr2( item, '=', .T. ),;
@@ -54,6 +55,8 @@ user function N1MOTVBX()
 		end if
 
 	end if
+
+	restArea( aArea )
 
 return cRet
 
